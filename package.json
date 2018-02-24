@@ -1,8 +1,14 @@
 {
   "name": "coveo-client",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Coveo Cloud Client",
-  "main": "index.ts",
+  "main": "dist/Coveo.js",
+  "types": "dist/src/Index.d.ts",
+  "homepage": "https://github.com/sbelzile-Coveo/coveo-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbelzile-Coveo/coveo-client.git"
+  },
   "scripts": {
     "build": "webpack",
     "test": "./node_modules/.bin/karma start --single-run",
